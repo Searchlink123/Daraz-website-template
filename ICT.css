@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    background-color: black;
+    display: flex;
+    color: #fff;
+}
+.logo{
+    font-size: 22px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 22px;
+    color: #fff;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: rgb(250, 90, 116);
+    border-bottom: 2px solid  rgb(250, 90, 116);
+}
+nav i{
+    font-size: 26px;
+}
+.main{
+    display: flex;
+    margin-top: 99px;
+    justify-content: space-around;
+}
+.main img{
+    width: 324px;
+}
+.mainText{
+    margin-top: 74px;
+}
+.main h1{
+    font-size: 66px;
+}
+.main p{
+    color: rgb(26, 26, 26);
+    margin-top: 22px;
+}
+.main button{
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 22px;
+    background-color: rgb(247, 26, 62);
+    border: none;
+}
+.main button:hover{
+    background-color: blue;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shop .shopcard{
+    width: 300px;
+    color: #fff;
+    margin-top: 22px;
+    background-color: black;
+    text-align: center;
+    margin-inline: 22px;
+}
+.shopcard button{
+    width: 88px;
+    height: 28px;
+    color: #fff;
+    background-color: rgb(248, 64, 95);
+    font-size: 18px;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.shopcard p{
+    margin-top: 12px;
+}
+.shopcard img{
+    width: 100%;
+    height: 420px;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+.arrival{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.arrival img{
+    width: 500px;
+}
+.arrivalText{
+    padding: 33px;
+    background-color: black;
+    color: #fff;
+}
+.arrivalText p{
+    margin-top: 22px;
+}
+.arrivalText button{
+    width: 140px;
+    height: 40px;
+    margin-top: 22px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(247, 19, 57);
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blogCard{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.blogs img{
+    width: 100%;
+    height: 420px;
+}
+.blogs a{
+    padding: 4px 22px;
+    text-decoration: none;
+    position: relative;
+    background-color: rgb(247, 7, 46);
+    color: #fff;
+    top: 12px;
+}
